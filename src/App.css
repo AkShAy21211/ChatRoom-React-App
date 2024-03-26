@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('./assests/images/chat-bg.jpg'); /* Corrected syntax for specifying a background image */
+    background-size: cover; /* Optional: Cover the entire background */
+    background-position: center; /* Optional: Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

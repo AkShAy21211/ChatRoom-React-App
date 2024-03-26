@@ -1,0 +1,22 @@
+.room-name h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(32, 75, 131);
+    border-radius: 10px;
+    animation: glowingText 2s infinite alternate; /* Apply glowing effect */
+  }
+  
+  /* Define keyframes for glowing effect */
+  @keyframes glowingText {
+    0% {
+      color: #e7d5cf; /* Initial text color */
+      text-shadow: 2 3 5px #413a37, 0 0 20px #493f3c, 0 0 30px #ff5722; /* Glowing effect */
+    }
+    100% {
+      color: #2196f3; /* Final text color */
+      text-shadow: 5 5 5px #2196f3, 0 0 20px #2196f3, 0 0 30px #2196f3; /* Glowing effect */
+    }
+  }
+  
